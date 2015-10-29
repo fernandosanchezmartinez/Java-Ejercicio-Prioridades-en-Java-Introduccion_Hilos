@@ -16,7 +16,7 @@ public class Hilo_letras extends Thread {
 		}
 		System.out.println("SE ESTÁ EJECUTANDO EL: " + getName());
 		// char letra = 65;
-		for (char letra = 65; letra < 76; letra++) {
+		for (char letra = 65; letra < 75; letra++) {
 			System.out.println(letra);
 		}
 
