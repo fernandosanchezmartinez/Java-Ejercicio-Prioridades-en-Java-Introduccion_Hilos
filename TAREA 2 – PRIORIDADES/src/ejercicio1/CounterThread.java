@@ -74,14 +74,12 @@ class Prioridad {
 // ------------------------------------- P R E G U N T A S -->
 
 /**
- * 1. ¿El cambio está afectando significativamente al resultado? Si cambiamos
- * los parametors de las propiedades observamos que cambia el orden de ejecucion
- * de los hilos <2,1, 2,1, 1,2,..>
- * 
- * 
- * 
- * 
- * 
- * 
+ * 1. ¿El cambio está afectando significativamente al resultado? ¿A qué se debe
+ * ese comportamiento? 
+ * Si cambiamos los parametors de las propiedades observamos
+ * que cambia el orden de ejecucion de los hilos <2,1, 2,1, 1,2,..> pero entra
+ * en un bucle de repeticion y fallan las prioridades. Sabemos que es un fallo
+ * normal por eso el uso de prioridades no es optimo y fiable
+ 
  */
 
